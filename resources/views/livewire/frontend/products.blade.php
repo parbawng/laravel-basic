@@ -39,7 +39,7 @@
                 <h5 class="font-mono font-bold text-lg text-gray-600">Round Seat</h5>
                 <span class="text-yellow-500">$ 0.00</span>
             </div>
-            <div class="cartlist absolute hidden ">
+            <div class="cartlist absolute">
                 <div class="view py-2">
                     <a href="#" alt="quickview" title="quickview">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -72,7 +72,7 @@
                 <h5 class="font-mono font-bold text-lg text-gray-600">Round Seat</h5>
                 <span class="text-yellow-500">$ 0.00</span>
             </div>
-            <div class="cartlist absolute hidden ">
+            <div class="cartlist absolute ">
                 <div class="view py-2">
                     <a href="#" alt="quickview" title="quickview">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -105,7 +105,7 @@
                 <h5 class="font-mono font-bold text-lg text-gray-600">Round Seat</h5>
                 <span class="text-yellow-500">$ 0.00</span>
             </div>
-            <div class="cartlist absolute hidden ">
+            <div class="cartlist absolute ">
                 <div class="view py-2">
                     <a href="#" alt="quickview" title="quickview">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -139,7 +139,7 @@
                 <h5 class="font-mono font-bold text-lg text-gray-600">Round Seat</h5>
                 <span class="text-yellow-500">$ 0.00</span>
             </div>
-            <div class="cartlist absolute hidden ">
+            <div class="cartlist absolute ">
                 <div class="view py-2">
                     <a href="#" alt="quickview" title="quickview">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -172,7 +172,7 @@
                 <h5 class="font-mono font-bold text-lg text-gray-600">Round Seat</h5>
                 <span class="text-yellow-500">$ 0.00</span>
             </div>
-            <div class="cartlist absolute hidden ">
+            <div class="cartlist absolute ">
                 <div class="view py-2">
                     <a href="#" alt="quickview" title="quickview">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -205,7 +205,7 @@
                 <h5 class="font-mono font-bold text-lg text-gray-600">Round Seat</h5>
                 <span class="text-yellow-500">$ 0.00</span>
             </div>
-            <div class="cartlist absolute hidden ">
+            <div class="cartlist absolute ">
                 <div class="view py-2">
                     <a href="#" alt="quickview" title="quickview">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -238,7 +238,7 @@
                 <h5 class="font-mono font-bold text-lg text-gray-600">Round Seat</h5>
                 <span class="text-yellow-500">$ 0.00</span>
             </div>
-            <div class="cartlist absolute hidden ">
+            <div class="cartlist absolute ">
                 <div class="view py-2">
                     <a href="#" alt="quickview" title="quickview">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
