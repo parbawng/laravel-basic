@@ -1,0 +1,23 @@
+/* ./resources/css/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cartlist{
+    top: 45%;
+    transform: translateY(-50%);
+    left: 0px;
+    transition: all .3s ease-in-out;
+    display: none;
+}
+.group{
+    transition: all .5s ease-in-out;
+    &:hover{
+        .cartlist{
+            display: block;
+            left: 20px;
+            transition: all .3s ease-in-out;
+        }
+
+    }
+}
