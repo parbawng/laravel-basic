@@ -10,6 +10,8 @@
     @livewireStyles
 </head>
 <body>
+    @include('partials.navbar')
+
     {{ $slot }}
 
     @livewireScripts

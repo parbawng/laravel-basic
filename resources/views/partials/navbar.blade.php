@@ -2,24 +2,24 @@
     <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6">
         <div class="grid grid-cols-6 gap-4">
             <div class="col">
-                <img src="./images/logo.png" alt="Shekinah" class="w-28">
+                <img src="{{ asset('images/logo.png') }}" alt="Shekinah" class="w-28">
             </div>
             <div class="col col-span-4 flex flex-wrap content-center justify-center">
                 <ul class="uppercase font-semibold font-mono text-lg">
                     <li class="inline-block px-2">
-                        <a href="">Home</a>
+                        <a href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="inline-block px-2">
-                        <a href="">Shop</a>
+                        <a href="{{ route('shops') }}">Shop</a>
                     </li>
                     <li class="inline-block px-2">
-                        <a href="">Products</a>
+                        <a href="#">Products</a>
                     </li>
                     <li class="inline-block px-2">
-                        <a href="">Gallery</a>
+                        <a href="#">Gallery</a>
                     </li>
                     <li class="inline-block px-2">
-                        <a href="">Contact</a>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -51,3 +51,20 @@
         </div>
     </div>
 </div>
+
+@if (request()->route()->getName() == 'home')
+    <div class="info-wrap relative">
+        <div class="banner-wrap">
+            <img src="{{ asset('images/main-banner.png') }}" alt="banner">
+        </div>
+        <div class="content-wrap absolute inset-0  flex flex-wrap content-center justify-center text-center">
+            <div class="inner-wrap">
+                    <h3 class="text-6xl font-mono font-bold text-white mb-20">Furniture Collection</h3>
+                    <a href="{{ route('shops') }}" class="bg-gray-50 font-bold font-mono rounded-sm py-4 px-12">Shop Now</a>
+            </div>
+        </div>
+    </div>
+@else
+    <div class="bg-gray-400 py-20 mb-10"></div>
+@endif
+

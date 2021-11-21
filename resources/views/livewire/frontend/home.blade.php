@@ -1,17 +1,5 @@
 <div>
-    @include('partials.navbar')
 
-    <div class="info-wrap relative">
-        <div class="banner-wrap">
-            <img src="./images/main-banner.png" alt="banner">
-        </div>
-        <div class="content-wrap absolute inset-0  flex flex-wrap content-center justify-center text-center">
-            <div class="inner-wrap">
-                    <h3 class="text-6xl font-mono font-bold text-white mb-20">Furniture Collection</h3>
-                    <a href="#" class="bg-gray-50 font-bold font-mono rounded-sm py-4 px-12">Shop Now</a>
-            </div>
-        </div>
-    </div>
 
     <div class="promotion-wrap max-w-7xl mx-auto px-2 my-8 sm:px-6">
         <div class="grid grid-cols-4 gap-2">
@@ -63,7 +51,7 @@
         </div>
     </div>
 
-    <div class="products-wrap text-center max-w-7xl mx-auto px-2 sm:px-6">
+    <div class="products-wrap">
         <h3 class="font-mono font-extrabold text-4xl text-gray-600 mt-10 ">Best Seller</h3>
         <p class="mb-12">Add best sellers products to weekly line up</p>
         @livewire('frontend.products');
