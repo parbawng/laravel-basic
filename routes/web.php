@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Livewire\Frontend\Home;
+use App\Http\Livewire\Frontend\Productdetail;
+use App\Http\Livewire\Frontend\Products;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +16,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', Home::class);
+Route::get('/', Home::class)->name('home');
+
+Route::get('/shops', Products::class)->name('shops');
+// Route::get('/shops/all/{$id}', Productdetail::class)->name('productdetail');
+Route::get('/shops/products/{product_id}', Productdetail::class)->name('productdetail');
